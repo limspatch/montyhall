@@ -32,15 +32,18 @@ A(car) B(goat) C(goat)
 -> Therefore, if you change your choice, you will definitely get goat.   
 
 2. If A is goat   
-(1) A(goat) B(car) C(goat)
+(1) A(goat) B(car) C(goat)   
 -> The host will open C.   
 (2) A(goat) B(goat) C(car)   
 -> The host will open B.   
 -> It means if you change your choice, then you will definitely get a car.   
 
 Thus, when you choose A, the probability of a car coming out is 2/3 and the probability of goat coming out is 1/3.   
+
 After a total of 1 million trials,   
+
 When you change your choice, the probability of a car coming out is about 0.666159, so we can see it very close to 2/3.   
+
 Monty Hall is correct!   
 
 # How to run?
